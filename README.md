@@ -1,32 +1,10 @@
-### Pacman in Python with PyGame
+### Vax-Man in Python with PyGame
 
-This is a very minimal implementation of the Pacman game, having only one level and without ghosts strategy, not even with random movements (yes, the routes are programmed). However, we may improve this game in the future and everyone else interested can feel free to fork and contribute to this project.
+### Nicolas Johnson Implementation: For EA's Python task: Pac-Man is now Vax-Man who can kill ghosts (Vaccinate them) on contact.  
+Ghosts do not kill Vax Man
 
-Download installer from here: https://github.com/hbokmann/Pacman/blob/master/pacman.exe
+Each Ghost multiplies itself by 2 every 30 seconds
 
-![Pacman Game Window](https://raw.github.com/hbokmann/Pacman/master/images/pacman.jpg)
+The goal of the game is to collect the dots before the number of ghosts grows to 32 or larger
 
-
-# Future development
-
-* Fix Pacman's movement
-* Ghosts moving algorithm and artificial intelligence
-* Better design
-* Better algorithm for the walls
-* Additional levels?
-
-
-Tested with [PyGame 1.9](http://pygame.org/ftp/pygame-1.9.2a0.win32-py3.2.msi ) and [Python 3.2 32bit](http://www.python.org/ftp/python/3.2.3/python-3.2.3.msi)
-
-
-### Additional resources
-* [Pac-Man Dossier - strategy of the ghosts movement](http://home.comcast.net/~jpittman2/pacman/pacmandossier.html)
-* [HTML5 Pacman](http://arandomurl.com/2010/07/25/html5-pacman.html)
-* [PyGame tutorials](http://programarcadegames.com/index.php?lang=en)
-* [How To Write a Pacman Game in JavaScript](http://www.masswerk.at/JavaPac/pacman-howto.html)
-* [Original Pacman game](http://originalpacman.com/)
-
-
-
-### Support or Contact
-Twitter: https://twitter.com/hbokmann
+I took the PacMan game from https://github.com/hbokmann/Pacman to edit.  I gave the ghosts smarter, more efficient, simple, and readable logic for their movement. (When they come into the walls, they will now be smart enough to choose a new direction)
